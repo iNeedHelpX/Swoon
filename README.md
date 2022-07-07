@@ -5,7 +5,7 @@ to align the header title to the center
 -->
 <p align="center"><img alt="img-name" src="https://user-images.githubusercontent.com/41366455/176600300-e9c9fa92-7bb8-40de-b8b8-d16b774c3ba6.png" width="250"><br><sup><em>App icon</sup></em></p>
 
-# ***$\textcolor{#5441e8}{\text{About this App}}$***
+# **$\textcolor{#5441e8}{\text{About this App}}$**
 
 *Swoon is an ecommerce SaSS(software as a service) platform that powers people to service eachother. shop for items or book someone to wait in lines for you. Convenience economy. This is the customer side app only.*
 
