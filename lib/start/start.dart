@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:swooncustomerapp/start/app_setup.dart';
+import 'package:swooncustomerapp/auth/google_auth.dart';
 
 class Start extends StatefulWidget {
   Start({Key? key}) : super(key: key);
@@ -21,7 +22,7 @@ class _StartState extends State<Start> {
         },
 
         //replace this with a call to a switch statement to check for login state
-        child: AppSetup(),
+        child: AuthService().handleAuthState(),
       ),
     );
   }
