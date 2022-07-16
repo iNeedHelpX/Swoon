@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:swooncustomerapp/auth/google_auth.dart';
 import 'package:swooncustomerapp/colors/colours_list.dart';
 import 'package:swooncustomerapp/colors/greygradient.dart';
 
@@ -49,6 +50,7 @@ class _LoginPageState extends State<LoginPage> {
                         height: 20,
                       ),
                       SignInButton(Buttons.Google, onPressed: () async {
+                        AuthService().signInWithGoogle();
                         //handle signin logic here. This will sign the user in with google
                       })
                     ],
