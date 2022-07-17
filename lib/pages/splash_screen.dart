@@ -9,6 +9,8 @@ class SplashPage extends StatefulWidget {
 }
 
 class _SplashPageState extends State<SplashPage> {
+  int? duration = 0;
+  String? goToPage;
   @override
   Widget build(BuildContext context) {
     return Container();
