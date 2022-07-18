@@ -5,6 +5,7 @@ import 'package:swooncustomerapp/pages/loginpage.dart';
 import 'package:swooncustomerapp/start/app_setup.dart';
 
 class AuthService {
+  //this function handles the auth state of the app
   handleAuthState() {
     return StreamBuilder(
         stream: FirebaseAuth.instance.authStateChanges(),
