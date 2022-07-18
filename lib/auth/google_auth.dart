@@ -19,7 +19,7 @@ class AuthService {
   }
 
   signInWithGoogle() async {
-    //stuff
+    //google login
 
     final GoogleSignInAccount? user =
         await GoogleSignIn(scopes: <String>["email"]).signIn();
