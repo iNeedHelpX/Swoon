@@ -4,6 +4,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:swooncustomerapp/pages/loginpage.dart';
 import 'package:swooncustomerapp/start/app_setup.dart';
 
+//google auth services
 class AuthService {
   //this function handles the auth state of the app. oh and 'or' is demarked || like this
   handleAuthState() {
