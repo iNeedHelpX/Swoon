@@ -35,6 +35,6 @@ You must have the flutter sdk installed. This app runs firebase for both login a
 
 <img width="349" alt="Screen Shot 2022-07-06 at 10 07 36 PM" src="https://user-images.githubusercontent.com/41366455/177674834-90fec020-7e98-450e-9f5c-41facdba2f8b.png">
 
-keys are in the config file. Usually its best to hide these, but for this use case I'm leaving my config files in for Rapyd testing my project.I use abstraction to access the keys.
+keys are in the config file. Usually its best to hide these, but for this use case I'm leaving my config files in for Rapyd testing my project. I use abstraction to access the keys. There is a slightly better way of accessing the keys by not putting anything in the files directly and using cloud storage, but I'm not too experienced at that and I find hiding the files from git + abstraction is easiest for me.
 
 July 6 2022.
