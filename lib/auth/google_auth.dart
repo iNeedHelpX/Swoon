@@ -6,7 +6,7 @@ import 'package:swooncustomerapp/start/app_setup.dart';
 
 //google auth services
 class AuthService {
-  //this function handles the auth state of the app. oh and 'or' is demarked || like this
+  //this function handles the auth state of the app. oh just a quick note 'or' is demarked like this ||. and is demarked like  this &&
   handleAuthState() {
     return StreamBuilder(
         stream: FirebaseAuth.instance.authStateChanges(),
